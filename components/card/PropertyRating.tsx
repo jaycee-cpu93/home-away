@@ -16,7 +16,7 @@ const count = 100
 const className = `flex gap-1 items-center ${inPage ? 'text-base' : 'text-xs'}`;
 const countText = count > 1 ? 'reviews' : 'review';
 const countValue = `(${count}) ${inPage ? countText: ''}`;
-
+console.log(propertyId)
   return (
     <span className={className}>
         <FaStar className='w-3 h-3' />
